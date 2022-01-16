@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         backgroundBlack: "#1d1d1d",
         experiment: "#24ABF2",
+        examples: "#f0ecec",
       },
       fontFamily: {
         openSans: "Open Sans, sans-serif;",

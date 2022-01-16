@@ -7,13 +7,13 @@ import ninjaIMG from "../img/ninja.jpg";
 const Info = () => {
   return (
     <div className="w-8/12 mx-auto mt-10 font-openSans">
-      <h1 className="mt-20 text-4xl tracking-wide text-white">
+      <h1 className="mt-20 text-3xl tracking-wide text-white">
         Quokka.js runs JavaScript and TypeScript with instant feedback. Runtime
         values are updated and displayed in your editor next to your code, as
         you type.
       </h1>
 
-      <div id="container" className="flex flex-row b-red-100">
+      <div id="container" className="flex flex-row mb-20 text-center text-1xl">
         <section className="w-4/12 mx-auto tracking-wide">
           <Card
             img={experimentsIMG}
@@ -53,7 +53,7 @@ const Info = () => {
 // eslint-disable-next-line react/prop-types
 const Card = ({ img, content }) => {
   return (
-    <div className="card mt-36">
+    <div className="mt-36" id="card">
       <img src={img} className={"mx-auto"} />
       <h3 className="mt-10 text-2xl text-white">{content}</h3>
     </div>
