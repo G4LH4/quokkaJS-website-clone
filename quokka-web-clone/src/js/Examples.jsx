@@ -31,7 +31,7 @@ const Examples = () => {
     return (
       <img
         src={image}
-        className={"ml-10  opacity-40 cursor-pointer w-28"}
+        className={"ml-10  opacity-40 cursor-pointer w-28 hover:opacity-100"}
         onClick={(e) => {
           handleClick(e);
         }}
@@ -41,10 +41,6 @@ const Examples = () => {
   };
 
   const handleClick = (e) => {
-    // const [isClicked, setIsClicked] = useState(false);
-
-    // const setOpacity = isClicked ? "opacity-100" : "opacity-40";
-
     const options = {
       vscode: () => {
         setGifs({

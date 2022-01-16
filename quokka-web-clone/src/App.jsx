@@ -5,6 +5,8 @@ import Header from "./js/Header";
 import MainContent from "./js/MainContent";
 import Info from "./js/Info";
 import Examples from "./js/Examples";
+import Tweets from "./js/Tweets";
+import Footer from "./js/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <MainContent />
       <Info />
       <Examples />
+      <Tweets />
+      <Footer />
     </div>
   );
 }
